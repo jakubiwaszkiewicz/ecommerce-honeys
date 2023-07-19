@@ -1,0 +1,34 @@
+.navbar {
+    height: 80px;
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 10px 30px;
+    
+    .item {
+
+    }
+
+        .left{
+            display: flex;
+            align-items: center;
+        }
+
+        .center{
+            img {
+                height: 40px;
+                object-fit: cover;
+                margin-right: 10px;
+            }
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+    }
+}
