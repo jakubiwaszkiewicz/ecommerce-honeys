@@ -8,13 +8,16 @@
         height: 100%;
         padding: 10px 30px;
     
-    .item {
-
-    }
+        .item {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+        }
 
         .left{
             display: flex;
             align-items: center;
+            gap: 25px;
         }
 
         .center{
@@ -29,6 +32,36 @@
             display: flex;
             align-items: center;
             gap: 25px;
+
+            .icons {
+                display: flex;
+                gap: 15px;
+                color: #777;
+                cursor: pointer;
+
+                .cartIcon {
+                    position: relative;
+                    span {
+                        font-size: 12px;
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: #985b10;
+                        color: white;
+                        position: absolute;
+                        right: -10px;
+                        top: -10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
         }
     }
 }
+// #f9c901	
+// #f6e000	
+// #985b10	
+// #6b4701
+// #896800	

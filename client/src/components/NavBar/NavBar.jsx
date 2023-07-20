@@ -21,30 +21,30 @@ export default function NavBar() {
                     <KeyboardArrowDownIcon/>
                 </div>
                 <div className="item">
-                    <Link to="/products/1">Honey</Link>
+                    <Link className='link' to="/products/1">Honey</Link>
                 </div>
                 <div className="item">
-                    <Link to="/products/2">Honey2</Link>
+                    <Link className='link' to="/products/2">Honey2</Link>
                 </div>
                 <div className="item">
-                    <Link to="/products/3">Honey3</Link>
+                    <Link className='link' to="/products/3">Honey3</Link>
                 </div>
             </div>
             <div className='center'>
-                <Link to="/">
+                <Link className='link' to="/">
                     <img src="img/logo-2.png" alt="" />
                 </Link>
             </div>
             
             <div className='right'>
                 <div className='item'>
-                    <Link to="/">Homepage</Link>
+                    <Link className='link' to="/">Homepage</Link>
                 </div>
                 <div className='item'>
-                    <Link to="/">About</Link>
+                    <Link className='link' to="/">About</Link>
                 </div>
                 <div className='item'>
-                    <Link to="/">Contact</Link>
+                    <Link className='link' to="/">Contact</Link>
                 </div>
                 <div className="icons">
                     <SearchIcon/>
