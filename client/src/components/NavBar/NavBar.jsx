@@ -12,7 +12,7 @@ export default function NavBar() {
     <div className='navbar'>
         <div className="wrapper">
             <div className='left'>
-                <div className="item">
+                <div className="item flag">
                     <img src="img/en.png" alt="" />
                     <KeyboardArrowDownIcon/>
                 </div>
@@ -24,11 +24,9 @@ export default function NavBar() {
                     <Link className='link' to="/products/1">Honey</Link>
                 </div>
                 <div className="item">
-                    <Link className='link' to="/products/2">Honey2</Link>
+                    <Link className='link' to="/products/2">Inne</Link>
                 </div>
-                <div className="item">
-                    <Link className='link' to="/products/3">Honey3</Link>
-                </div>
+
             </div>
             <div className='center'>
                 <Link className='link' to="/">
