@@ -1,10 +1,25 @@
 .products {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     padding: 30px 50px;
     .left {
         flex: 1;
+        position: sticky;
+        height: 100%;
+        top: 80px;
+        .filterItem {
+            margin-bottom: 35px;
+
+            h2 {
+                font-weight: 400;
+                margin-bottom: 15px;
+            }
+            .inputItem {
+                margin-bottom: 10px; 
+                label {
+                    margin-left: 8px;
+                }
+            }
+        }
     }
     .right {
         flex: 3;

@@ -6,6 +6,7 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 import FavoriteBorderOutlineIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import {Link} from 'react-router-dom';
 import './NavBar.scss';
+import enImg from '../../img/en.png'
 
 export default function NavBar() {
   return (
@@ -13,7 +14,7 @@ export default function NavBar() {
         <div className="wrapper">
             <div className='left'>
                 <div className="item flag">
-                    <img src="img/en.png" alt="" />
+                    <img src={enImg} alt="" />
                     <KeyboardArrowDownIcon/>
                 </div>
                 <div className="item">

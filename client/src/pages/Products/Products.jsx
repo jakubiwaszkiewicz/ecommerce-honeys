@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom"
 import List from "../../components/List/List"
 import { useState } from "react"
+import "./Products.scss"
+import catImg from "../../img/stock-1920-1080/stock-3.jpg"
 
 export default function Products() {
 
@@ -9,7 +11,7 @@ export default function Products() {
   const [sort, setSort] = useState(null)
 
   return (
-    <div>
+    <div className="products">
       <div className="left">
         <div className="filterItem">
           <h2>Product Categories</h2>
@@ -42,7 +44,7 @@ export default function Products() {
       <div className="right">
         <img
           className="catImg"
-          src="img/stock-1920-1080/stock-3.jpg"
+          src={catImg}
           alt=""
         />
         <List
