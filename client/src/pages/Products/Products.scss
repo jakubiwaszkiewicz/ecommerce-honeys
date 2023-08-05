@@ -1,0 +1,18 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 50px;
+    .left {
+        flex: 1;
+    }
+    .right {
+        flex: 3;
+        .catImg {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+    }
+}
+
