@@ -26,32 +26,50 @@ export default function Product() {
       </div>
       <div className="right">
         <h1>Title</h1>
-        <span>190 PLN</span>
+
+        <span className="price">190 PLN</span>
+
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
           Rerum, a? Adipisci id saepe animi harum autem deserunt culpa temporibus
           inventore consectetur dignissimos debitis voluptatum rerum aut, nemo nisi corrupti. Ullam
         </p>
+
         <div className="quantity"> 
           <button onClick={()=>setQuantity(prev=>prev === 1 ? 1 : prev-1)}>-</button>
-          {quantity}
+          <span className="textQuantity">{quantity}</span>
           <button onClick={()=>setQuantity(prev=>prev+1)}>+</button>
         </div>
+
         <div className="add">
           <AddShoppingCartIcon/> DODAJ DO KOSZYKA
         </div>
-        <div className="link">
+
+        <div className="links">
+
           <div className="item">
             <FavoriteBorderIcon/> ADD TO WISHLIST
             </div>
+
           <div className="item">
             <BalanceIcon/> ADD TO COMPARE
           </div>
+
         </div>
+
         <div className="info">
           <span>Typ produktu: Miód</span>
           <span>Tag: Miód, pszczoły</span>
         </div>
+        <hr />
+        <div className="info">
+          <span>OPIS</span>
+          <hr />
+          <span>DODATKOWE INFORMACJE</span>
+          <hr />
+          <span>FAQ</span>
+        </div>
+
       </div>
     </div>
   )
